@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="start-button-container">
+        <button id="start-quiz-button">Start Quiz</button>
+    </div>
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h1>Quiz App</h1>
+            <div class="quiz-stats">
+                <span id="question-counter">Question 1/10</span>
+                <span id="score">Score: 0</span>
+            </div>
+        </div>
+        <div class="question">
+            <h2 id="question-text">What is 2 + 2?</h2>
+            <div class="options">
+                <div class="option" id="option-1" style="background-color: white; pointer-events: auto;">3</div>
+                <div class="option" id="option-2" style="background-color: white; pointer-events: auto;">4</div>
+                <div class="option" id="option-3" style="background-color: white; pointer-events: auto;">5</div>
+                <div class="option" id="option-4" style="background-color: white; pointer-events: auto;">6</div>
+            </div>
+        </div>
+        <div class="quiz-controls">
+            <button id="next-button" disabled="">Next</button>
+        </div>
+    </div>
+    <div class="scoreboard">
+        <h1>Quiz Completed!</h1>
+        <p>Your score: <span id="final-score">0</span></p>
+        <button id="restart-button">Restart</button>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
