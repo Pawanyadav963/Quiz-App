@@ -17,4 +17,4 @@ In this project user has to create a simple quiz application, where one can test
 
 ## Output
 
-![expected output]()
+![expected output](https://clinquant-beijinho-61b8ca.netlify.app)
